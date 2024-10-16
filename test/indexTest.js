@@ -6,6 +6,8 @@ describe("index.html", () => {
       expect(document.querySelector('main#main'), "Make sure you remove the <main> with id 'main'").to.not.exist
     });
 
+    
+
     it("has a 'newHeader' variable that points to an <h1> node", () => {
       expect(
         newHeader.nodeName,
